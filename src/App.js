@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
-import CounterOne from './Components/Customhook/Hooks/CounterOne';
-import CounterTwo from './Components/Customhook/Hooks/CounterTwo';
+import UserForm from './Components/Customhook/UserForm';
+// import CounterOne from './Components/Customhook/CounterOne';
+// import CounterTwo from './Components/Customhook/CounterTwo';
+// import DocTitleOne from './Components/Customhook/Hooks/DocTitleOne';
+// import DocTitleTwo from './Components/Customhook/Hooks/DocTitleTwo';
+// import CounterOne from './Components/Customhook/Hooks/CounterOne';
+// import CounterTwo from './Components/Customhook/Hooks/CounterTwo';
 // import DocTitleOne from './Components/Customhook/DocTitleOne';
 // import DocTitleTwo from './Components/Customhook/DocTitleTwo';
 // import ClassTimer from './Components/Userefhook/ClassTimer';
@@ -13,8 +18,13 @@ import CounterTwo from './Components/Customhook/Hooks/CounterTwo';
 function App() {
   return (
     <div className="App">
-      <CounterOne />
-      <CounterTwo />
+      <UserForm />
+      {/* <CounterOne />
+      <CounterTwo /> */}
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+      {/* <CounterOne />
+      <CounterTwo /> */}
       {/* <DocTitleOne />
       <DocTitleTwo /> */}
       {/* <HookTimer /> */}
